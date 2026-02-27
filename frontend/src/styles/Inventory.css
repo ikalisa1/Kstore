@@ -1,0 +1,141 @@
+.inventory-page {
+  padding: 2rem;
+}
+
+.inventory-page h1 {
+  color: var(--accent-color);
+  margin-bottom: 2rem;
+}
+
+.badge-in {
+  background-color: var(--accent-success);
+  color: var(--primary-dark);
+}
+
+.badge-out {
+  background-color: var(--accent-warm);
+  color: white;
+}
+
+.badge-adjustment {
+  background-color: var(--accent-color);
+  color: var(--primary-dark);
+}
+
+/* Responsive Design */
+@media (max-width: 575.98px) {
+  .inventory-page {
+    padding: 0.75rem;
+  }
+
+  .inventory-page h1 {
+    font-size: 1.375rem;
+    margin-bottom: 1rem;
+  }
+
+  .inventory-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .inventory-search {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 0.875rem;
+  }
+
+  .inventory-header-actions {
+    width: 100%;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .inventory-header-actions button {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 0.875rem;
+  }
+
+  .inventory-table-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 0 -0.75rem;
+    padding: 0 0.75rem;
+  }
+
+  .inventory-table {
+    min-width: 650px;
+    font-size: 0.8rem;
+  }
+
+  .inventory-table th,
+  .inventory-table td {
+    padding: 0.5rem 0.375rem;
+    font-size: 0.8rem;
+  }
+
+  .inventory-table th {
+    font-size: 0.75rem;
+    white-space: nowrap;
+  }
+
+  .modal {
+    padding: 0.5rem;
+  }
+
+  .modal-content {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0.875rem !important;
+  }
+
+  .modal-header h2 {
+    font-size: 1.125rem;
+  }
+
+  .modal-actions {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .modal-actions button {
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .inventory-page {
+    padding: 1rem;
+  }
+
+  .inventory-table-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .inventory-table {
+    min-width: 700px;
+  }
+
+  .modal-content {
+    width: 95% !important;
+    max-width: 540px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .inventory-page {
+    padding: 1.5rem;
+  }
+
+  .inventory-table-container {
+    overflow-x: auto;
+  }
+
+  .inventory-table {
+    min-width: 800px;
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "timestamp": "2026-02-12T09:26:30.872Z",
+  "expenses": [
+    {
+      "_id": "698d9b2fac3ab02d56786953",
+      "date": "2026-02-12T00:00:00.000Z",
+      "amount": 3,
+      "category": "rent",
+      "description": "3",
+      "paymentMethod": "cash",
+      "createdAt": "2026-02-12T09:19:43.594Z",
+      "updatedAt": "2026-02-12T09:19:43.595Z",
+      "__v": 0
+    }
+  ],
+  "products": [
+    {
+      "_id": "698d9be7ac3ab02d56786964",
+      "name": "cccc",
+      "sku": "jorl",
+      "category": "electronics",
+      "unitPrice": 32,
+      "quantity": 2,
+      "minStock": 10,
+      "maxStock": 100,
+      "supplier": "ivan",
+      "description": "thx",
+      "createdAt": "2026-02-12T09:22:47.371Z",
+      "updatedAt": "2026-02-12T09:22:47.372Z",
+      "__v": 0
+    },
+    {
+      "_id": "698d9c14ac3ab02d56786967",
+      "name": "xxc",
+      "sku": "cxc",
+      "category": "electronics",
+      "unitPrice": 32,
+      "quantity": 3,
+      "minStock": 10,
+      "maxStock": 100,
+      "supplier": "fs",
+      "description": "wdf",
+      "createdAt": "2026-02-12T09:23:32.134Z",
+      "updatedAt": "2026-02-12T09:23:32.138Z",
+      "__v": 0
+    }
+  ],
+  "inventory": [
+    {
+      "_id": "698d9bb7ac3ab02d5678695a",
+      "product": null,
+      "quantity": 1,
+      "type": "out",
+      "reason": "Manual adjustment",
+      "date": "2026-02-12T09:21:59.445Z",
+      "createdAt": "2026-02-12T09:21:59.445Z",
+      "__v": 0
+    },
+    {
+      "_id": "698d9bb8ac3ab02d5678695f",
+      "product": null,
+      "quantity": 1,
+      "type": "in",
+      "reason": "Manual adjustment",
+      "date": "2026-02-12T09:22:00.897Z",
+      "createdAt": "2026-02-12T09:22:00.897Z",
+      "__v": 0
+    }
+  ]
+}
