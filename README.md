@@ -1,6 +1,12 @@
 # Juakali Store Management System
 
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Kstore-181717?logo=github)](https://github.com/ikalisa1/Kstore)
+
 A comprehensive store management application with dark theme. Track expenses, manage inventory, monitor product stock levels, and maintain detailed records with automatic backup functionality.
+
+## Repository
+
+- **GitHub**: https://github.com/ikalisa1/Kstore
 
 ## Features
 
